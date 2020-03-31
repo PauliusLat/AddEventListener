@@ -9,7 +9,7 @@ document.querySelector('body').innerHTML = HTML;
 
 const butonsai = document.querySelectorAll('.btn');
 for (let i = 0; i < butonsai.length; i++) {
-    butonsai[i].addEventListener('click', increment);
+    butonsai[i].addEventListener("mousemove", increment);
 }
 function increment(event) {
     const button = event.target;
